@@ -11,4 +11,16 @@ How are you?
 I hope you are having a nice day''';
 
   print(many);
+
+  //String concatenation
+  String hello = 'hello';
+  String world = 'world';
+  print(hello + world);
+
+  //string methods
+  String upper = many.toUpperCase();
+  print(upper);
+
+  //in dart strings are immutable meaning that it cannot be changed meaning when you use a string method  it creates a new string 
+  
 }
