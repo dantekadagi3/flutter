@@ -52,15 +52,12 @@ void main() {
   bool hasJob = true;
 
   if (agenew >= 18) {
-    if (isStudent && !hasJob) {
+    
       print('You are a student and do not have a job.');
     } else {
       print('You are  a student and have a job.');
     }
-  } else {
-    print('You are not an adult.');
-  }
-
+  
   //
 
   String season = "";

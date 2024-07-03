@@ -22,5 +22,4 @@ I hope you are having a nice day''';
   print(upper);
 
   //in dart strings are immutable meaning that it cannot be changed meaning when you use a string method  it creates a new string 
-  
 }
