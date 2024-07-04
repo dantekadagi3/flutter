@@ -6,8 +6,10 @@ void main() {
   print(word);
 
   int? num;
+  int? num2;
   print(num?.isEven);
   num = 10;
-  print(num);
- 
+  print(num2?.isFinite ?? 0);
+
+  //by addding the double question marks at the end then it is like you are saying if the value is null you should print 0
 }
