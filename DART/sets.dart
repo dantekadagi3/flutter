@@ -11,5 +11,14 @@ void main() {
   funnyAnimals.add('dog');
 
   //adding multiple items to a set
-  
+  funnyAnimals.addAll({'polar bear', 'tiger'});
+  print(funnyAnimals);
+
+  //Removing items from a set
+  funnyAnimals.remove('Tiger');
+  print(funnyAnimals);
+
+  //comparing different sets
+  Set<String> scaryAnimals = {'pig', 'cow', 'mouse'};
+  print(scaryAnimals);
 }
