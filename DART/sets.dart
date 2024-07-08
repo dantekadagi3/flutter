@@ -21,4 +21,7 @@ void main() {
   //comparing different sets
   Set<String> scaryAnimals = {'pig', 'cow', 'mouse'};
   print(scaryAnimals);
+
+  Set<String> animalsInBoth = funnyAnimals.intersection(scaryAnimals);
+
 }
